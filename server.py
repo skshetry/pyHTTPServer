@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
-import daemon2
-import json
-import logging
+import json,logging,os,sys
 
 address="127.0.0.3"
 PORT = 7777
